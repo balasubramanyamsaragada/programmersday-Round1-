@@ -1,0 +1,188 @@
+
+
+.site-section {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+
+.media.block-6 {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center; 
+}
+
+
+.media.block-6:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.icon {
+  font-size: 36px;
+  color: #28a745;
+  margin-right: 20px; 
+}
+
+/
+.heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333; 
+}
+
+
+.media-body p {
+  font-size: 16px;
+  color: #666; 
+}
+
+
+.link-underline {
+  text-decoration: none;
+  color: #28a745; 
+  font-weight: bold;
+}
+
+
+.link-underline:hover {
+  text-decoration: underline;
+  color: #218838; 
+}
+
+
+.media-image {
+  flex: 1;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .media-image {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  .media-image img {
+    max-width: 100%;
+  }
+}
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Center the button and text vertically and horizontally */
+.block-30 {
+  background-size: cover;
+  background-position: center;
+  height: 800px; /* Adjust the height as needed */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the container inside carousel items */
+.block-30 .container {
+  position: relative;
+  z-index: 1;
+  text-align: center; /* Center-align the text within the container */
+  color: #fff; /* Text color */
+}
+
+/* Style the heading text */
+.heading {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+.btn-success {
+  background-color: #28a745; /* Green background color */
+  color: #fff; /* White text color */
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+//this is one 
+
+/* Style the container */
+.site-section {
+  padding: 80px 0; /* Adjust padding as needed */
+  background-color: #f8f9fa; /* Background color for the whole section */
+}
+
+/* Style each column */
+.media.block-6 {
+  background-color: #ffffff; /* Background color for each column */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 30px; /* Add spacing inside each column */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  text-align: center; /* Center-align the content within each column */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for each column */
+.media.block-6:hover {
+  transform: translateY(-5px); /* Move the column up slightly on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+/* Style the icons */
+.icon {
+  font-size: 36px; /* Adjust icon size as needed */
+  color: #28a745; /* Icon color */
+  margin-bottom: 20px; /* Add spacing between icon and text */
+}
+
+/* Style the headings */
+.heading {
+  font-size: 24px; /* Adjust heading font size as needed */
+  margin-bottom: 15px; /* Add spacing between heading and text */
+  color: #333; /* Text color for headings */
+}
+
+/* Style the text content */
+.media-body p {
+  font-size: 16px; /* Adjust text font size as needed */
+  color: #666; /* Text color */
+}
+
+/* Style the "Learn More" links */
+.link-underline {
+  text-decoration: none; /* Remove default underline */
+  color: #28a745; /* Link text color */
+  font-weight: bold; /* Make the link text bold */
+}
+
+/* Hover effect for links */
+.link-underline:hover {
+  text-decoration: underline; /* Underline the link text on hover */
+  color: #218838; /* Link text color on hover */
+}
+
